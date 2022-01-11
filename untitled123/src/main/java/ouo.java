@@ -50,15 +50,9 @@ public class ouo {
                         System.out.println("===>" + views.text() + "  " + replys.text());
 
                         Elements USER = index_2.select("div[class~=^Fxg]");
-                        for(Element z : USER) {
-                            System.out.println(z.text());
-                            System.out.println();
-                            break;
                         }
                     }
-                    break;
                 }
-            }
             //URL_2 = URL_1 + td.attr("href");
             //index_2 = Jsoup.connect(URL_2).get();
             //System.out.printf("%s",index_2.title()+" ");
